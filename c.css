@@ -1,0 +1,90 @@
+/* 基本のボディスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; /* パステルブルー */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーのデザイン */
+header {
+    background-color: #81d4fa; /* パステルブルー */
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    border-bottom: 5px solid #4fc3f7; /* 明るいシアン */
+}
+
+/* ヘッダーのタイトル */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* フォームのコンテナ */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* フォームタイトル */
+.form-container h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* テキストエリアのデザイン */
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f1f8e9; /* 淡い緑色 */
+    box-sizing: border-box;
+}
+
+/* ボタンのスタイル */
+button {
+    background-color: #80deea; /* パステルシアン */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* ボタンを全幅に */
+    transition: background-color 0.3s;
+}
+
+/* ボタンのホバー時のエフェクト */
+button:hover {
+    background-color: #4dd0e1; /* 明るいシアン */
+}
+
+/* 戻るボタンのスタイル */
+.back-button {
+    padding: 10px 20px;
+    background-color: #80deea; /* パステルシアン */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+/* 戻るボタンのホバー時のエフェクト */
+.back-button:hover {
+    background-color: #4dd0e1; /* 明るいシアン */
+}

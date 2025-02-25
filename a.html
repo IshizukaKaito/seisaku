@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間割管理</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>時間割管理</h1>
+    </header>
+
+    <div class="form-container">
+        <h2>時間割を入力</h2>
+        <form id="timetable-form">
+            <label for="time">時間帯</label>
+            <select id="time" required>
+                <option value="">選択してください</option>
+                <option value="9:00-10:30">9:00-10:40</option>
+                <option value="10:40-12:10">10:40-12:10</option>
+                <option value="12:10-13:00">12:10-13:00</option>
+                <option value="13:00-14:30">13:00-14:30</option>
+                <option value="14:40-16:10">14:40-16:10</option>
+                <option value="16:20-17:50">16:20-17:50</option>
+            </select>
+
+
+            <label for="day">曜日</label>
+            <select id="day" required>
+                <option value="">選択してください</option>
+                <option value="Monday">月曜日</option>
+                <option value="Tuesday">火曜日</option>
+                <option value="Wednesday">水曜日</option>
+                <option value="Thursday">木曜日</option>
+                <option value="Friday">金曜日</option>
+            </select>
+
+
+            <label for="subject">科目名</label>
+            <input type="text" id="subject" placeholder="科目名を入力" required>
+
+
+            <label for="room">教室番号</label>
+            <input type="text" id="room" placeholder="教室番号を入力" required>
+
+
+            <button type="submit">追加</button>
+
+            <a href="Top.html" class="back-button">トップページに戻る</a>
+        
+        </form>
+    </div>
+
+    <table id="timetable">
+        <thead>
+            <tr>
+                <th>時間</th>
+                <th>月曜日</th>
+                <th>火曜日</th>
+                <th>水曜日</th>
+                <th>木曜日</th>
+                <th>金曜日</th>
+                <th>出欠席</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="a.js"></script>
+
+</body>
+
+</html>
